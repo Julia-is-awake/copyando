@@ -1,6 +1,8 @@
 .bot-bg-gradient {
-    background: rgb(117,8,7);
-    background: linear-gradient(145deg, rgba(117,8,7,1) 0%, rgba(111,65,40,1) 17%, rgba(94,25,3,1) 28%, rgba(5,10,21,1) 74%);
+    background-color: #09040f;
+    background-image: linear-gradient(360deg, #09040f, rgba(0, 0, 0, .5)), linear-gradient(140deg, #ee0c0c, #ff9659 22%, #d73802 38%, #2b2b2b 57%, #011c34 75%, #000);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
 }
 
 .item-nav {
@@ -8,7 +10,15 @@
 }
 
 .item-nav:hover {
-    color:#D93600
+    color: #FF9659;
+}
+
+.texto-nav-principal {
+    text-shadow: #ff9659 0px 0 10px;
+}
+
+.texto-branco {
+    color: #ffffff;
 }
 
 .texto-principal {
@@ -59,12 +69,20 @@
 }
 
 .parte-baixo {
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .icone-menu {
     filter: invert(100%);
     width: 100px;
+}
+
+.video-luis {
+    margin-top: 100px;
+}
+
+.bordinha {
+    border-bottom: solid 2px #FF9659;
 }
 
 @media only screen and (max-width: 990px) {
